@@ -70,6 +70,32 @@ label fit:
 
     s "{cps=40}jadi cocok buat kamu yang mau langsung terjun ke dunia kerja setelah lulus{/cps}"
 
+    ## Info Opsi Tambahan 3 opsi
+
+label menu_fit:
+
+    menu:
+
+        s "{cps=40}Prodi apa yang fokus pada pengembangan aplikasi dan perangkat lunak?{/cps}"
+
+        "Hospitality and Culinary Arts":
+            jump fit_wrong
+
+        "Rekayasa Perangkat Lunak":
+            jump fit_right
+
+label fit_wrong:
+
+    "{cps=40}Salah, coba lagi ya. Cluenya, prodi ini sering bikin coding marathon{/cps}"
+
+    jump menu_fit
+
+label fit_right:
+    
+    "{cps=40}Benar! Kamu ternyata jago juga. Yuk, lanjut ke fakultas berikutnya{/cps}"
+
+    jump fks
+
 label fks:
 
     "{cps=40}Serina mengajak [playername] menuju Fakultas Komunikasi dan Ilmu Sosial (FKS){/cps}"
@@ -83,6 +109,38 @@ label fks:
     "{cps=40}beberapa program studi diantaranya telah terakreditasi Unggul dan A{/cps}"
 
     "{cps=40}Selain itu terdapat program studi yang telah terakreditasi internasional dari IABEE{/cps}"
+
+    ### Opsi tambahan 3 opsi
+
+label menu_fks:
+
+    menu:
+
+        s "{cps=40}Di FKS, jurusan apa yang fokus pada membangun hubungan publik yang kuat?{/cps}"
+
+        "Ilmu Komunikasi":
+            jump fks_wrong
+
+        "Hubungan Masyarakat":
+            jump fks_right
+
+        "Digital Content Broadcasting ":
+            jump fks_wrong
+
+        "Psikologi":
+            jump fks_wrong
+
+label fks_right:
+
+    "{cps=40}Wah, kamu cepat paham! Yuk, lanjut ke lokasi berikutnya!{/cps}"
+
+    jump feb
+
+label fks_wrong:
+
+    s "{cps=40}Jawabannya masih salah.. Coba lagi ya{/cps}"
+
+    jump menu_fks
 
 label feb:
 
@@ -102,7 +160,32 @@ label feb:
 
     s "{cps=40} serta lifelong learning dengan tagline “Preparing The Digital Business Leader”{/cps}"
 
-    "{cps=40}{/cps}"
+    ### Opsi Tambahan
+
+label menu_feb:
+
+    s "“Benda apa yang identik dengan FEB?"
+
+    "Microphone":
+        jump feb_wrong
+
+    "Pensil":
+        jump feb_wrong
+
+    "Kalkulator":
+        jump feb_right
+
+label feb_right:
+
+    s "{cps=40}Wah, kamu cepat paham! Yuk, lanjut ke lokasi berikutnya!{/cps}"
+
+    jump fik
+
+label feb_wrong:
+
+    s "{cps=40}Ups, salah! Cluenya, benda ini dipakai untuk menghitung.{/cps}"
+
+    jump menu_feb
 
 label fik:
 
@@ -112,7 +195,37 @@ label fik:
 
     s "{cps=40}FIK telah menghasilkan banyak lulusan yang kiprahnya telah banyak memberikan warna pada perkembangan industri kreatif di Indonesia dan mancanegara{/cps}"
 
+    ###jdincecneinei opsi 3
+
     "{cps=40}{/cps}"
+
+label menu_fik:
+
+    s "Salah satu keahlian utama yang diajarkan di Fakultas Industri Kreatif adalah kemampuan mengembangkan konsep kreatif. Alat digital apa yang sering digunakan untuk membuat desain grafis?"
+
+    "Microsoft Word":
+        jump fik_wrong
+
+    "Adobe Illustrator":
+        jump fik_right
+
+    "Excel":
+        jump fik_wrong
+
+    "PowerPoint":
+        jump fik_wrong
+
+label fik_right:
+
+    s "{cps=40}Wah, kamu cepat paham! Yuk, lanjut ke lokasi berikutnya!{/cps}"
+
+    jump fri
+
+label fik_wrong:
+
+    s "{cps=40}Ups, kurang tepat! Coba lagi ya..{/cps}"
+
+    jump menu_fik
 
 label fri:
 
@@ -130,6 +243,30 @@ label fri:
 
     "{cps=40}{/cps}"
 
+    #opsi 3333
+
+label menu_fri:
+
+    s "{cps=40}Jurusan IPS tidak bisa mendaftar Program Studi S1 Teknik Industri{/cps}"
+
+    "Mitos":
+        jump fri_right
+
+    "Fakta":
+        jump fri_wrong
+
+label fri_right:
+
+    s "{cps=40}Benar! Baik siswa IPA maupun IPS bisa mendaftar di Program Studi S1 Teknik Industr{/cps}"
+
+    jump fte
+
+label fri_wrong:
+
+    s "{cps=40}Salah, coba lagi ya. Walaupun sudah pasti jawaban satunya yang benar{/cps}"
+
+    jump menu_fri
+
 label fte:
 
     "{cps=40}Serina mengajak [playername] berlari menuju Fakultas Teknik Elektro (FTE){/cps}"
@@ -143,6 +280,14 @@ label fte:
     "{cps=40}{/cps}"
 
     "{cps=40}{/cps}"
+
+label fte_right:
+
+    s "{cps=40}{/cps}"
+
+label fte_wrong:
+
+    s "{cps=40}{/cps}"
 
 label fif:
 
@@ -161,6 +306,14 @@ label fif:
     "{cps=40}{/cps}"
 
     "{cps=40}{/cps}"
+
+label fif_right:
+
+    s "{cps=40}{/cps}"
+
+label fif_wrong:
+
+    s "{cps=40}{/cps}"
 
 label situ_techno:
 
