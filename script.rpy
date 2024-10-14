@@ -62,6 +62,8 @@ label intro:
 
 label fit:
 
+    scene bg fit
+
     "{cps=40}Serina mengajak [playername] berlari menuju Fakultas Ilmu Terapan (FIT).{/cps}"
 
     s "{cps=40}FIT ini adalah salah satu dari tujuh fakultas di Telkom University{/cps}"
@@ -97,6 +99,8 @@ label fit_right:
     jump fks
 
 label fks:
+
+    scene bg fks
 
     "{cps=40}Serina mengajak [playername] menuju Fakultas Komunikasi dan Ilmu Sosial (FKS){/cps}"
 
@@ -144,6 +148,8 @@ label fks_wrong:
 
 label feb:
 
+    scene bg feb
+
     "{cps=40}Serina mengajak [playername] menuju Fakultas Ekonomi dan Bisnis (FEB){/cps}"
 
     "{cps=40}Saat mereka tiba, Serina memberikan senyum misterius{/cps}"
@@ -189,7 +195,9 @@ label feb_wrong:
 
 label fik:
 
-    "{cps=40}Serina mengajak Player berlari menuju Fakultas Industri Kreatif (FIK){/cps}"
+    scene bg fik
+
+    "{cps=40}Serina mengajak [playername] berlari menuju Fakultas Industri Kreatif (FIK){/cps}"
 
     s "{cps=40}Fakultas Industri Kreatif (FIK) Telkom University memiliki 7 Program Studi unggulan dan terlengkap di bidang kreatif{/cps}"
 
@@ -229,7 +237,9 @@ label fik_wrong:
 
 label fri:
 
-    "{cps=40}Serina mengajak Player berlari menuju Fakultas Rekayasa Industri (FRI){/cps}"
+    scene bg sl-fri
+
+    "{cps=40}Serina mengajak [playername] berlari menuju Fakultas Rekayasa Industri (FRI){/cps}"
 
     s "{cps=40}Kali ini kamu sedang ada di Gedung Kuliah 20 lantai Telkom University! Asik banget deh kalau dapat kelas di sini{/cps}"
 
@@ -269,6 +279,8 @@ label fri_wrong:
 
 label fte:
 
+    scene bg sl-fte
+
     "{cps=40}Serina mengajak [playername] berlari menuju Fakultas Teknik Elektro (FTE){/cps}"
 
     s "{cps=40}Masih di gedung kuliah TULT{/cps}"
@@ -290,6 +302,8 @@ label fte_wrong:
     s "{cps=40}{/cps}"
 
 label fif:
+
+    scene bg sl-fif
 
     "{cps=40}Serina mengajak [playername] berlari menuju Fakultas Informatika (FIF){/cps}"
 
@@ -317,6 +331,8 @@ label fif_wrong:
 
 label situ_techno:
 
+    scene bg danau
+
     s "{cps=40}Selamat datang di Situ Techno!{/cps}"
 
     s "{cps=40}Situ Techno sering dijuluki sebagai Danau Galau{/cps}"
@@ -339,6 +355,8 @@ label situ_techno:
 
 label asrama:
 
+    scene bg asrama
+
     "{cps=40}Serina Mengajak [playername] untuk bersepeda menggunakan beam menuju Asrama{/cps}"
 
     "{cps=40}Ketika sampai, Serina tersenyum lebar penuh antusias{/cps}"
@@ -357,11 +375,13 @@ label asrama:
 
 label rektorat:
 
-    "{cps=40}Serina mengajak Player berlari menuju Gedung Rektorat. Ketika sampai, Serina tersenyum penuh antusias{/cps}"
+    scene bg bangkit2
+
+    "{cps=40}Serina mengajak [playername] berlari menuju Gedung Rektorat. Ketika sampai, Serina tersenyum penuh antusias{/cps}"
 
     s "{cps=40}Kamu adalah salah satu dari mereka yang beruntung bisa mengunjungi gedung ini. Karena ada kejutan spesial untukmu{/cps}"
 
-    "{cps=40}Serina mengajak Player masuk ke dalam Gedung Rektorat{/cps}"
+    "{cps=40}Serina mengajak [playername] masuk ke dalam Gedung Rektorat{/cps}"
 
     s "{cps=40}Di dalam gedung ini, tersembunyi hadiah spesial dari Rektor Telkom University yang bisa kamu temukan setelah memecahkan teka-teki{/cps}"
 
@@ -377,7 +397,9 @@ label rektorat:
 
 label admisi:
 
-    "{cps=40}Ketika sedang explore, Serina dan Player melewati gedung Admisi. {/cps}"
+    scene bg admisi
+
+    "{cps=40}Ketika sedang explore, Serina dan [playername] melewati gedung Admisi. {/cps}"
 
     s "{cps=40}Selamat datang di rumahku{/cps}"
     
@@ -399,7 +421,7 @@ label admisi:
 
 label outro:
 
-    "{cps=40}Akhirnya, perjalanan Player dan Serina telah sampai pada titik terakhir{/cps}"
+    "{cps=40}Akhirnya, perjalanan [playername] dan Serina telah sampai pada titik terakhir{/cps}"
 
     "{cps=40}Dari kejauhan, terlihat rombongan yang sedang beristirahat di depan Asrama{/cps}"
 
@@ -421,8 +443,6 @@ label outro:
 
     "{cps=40}[playername] berlari untuk bergabung dengan rombongan{/cps}"
 
-    "{cps=40}[playername] berlari untuk bergabung dengan rombongan{/cps}"
-
     "{cps=40}Namun, sebelum [playername] benar-benar pergi meninggalkan Serina{/cps}"
 
     "{cps=40}[playername] menoleh kembali. Terlihat Serina melambaikan tangan dengan semangat{/cps}"
@@ -431,6 +451,6 @@ label outro:
 
     "{cps=40}[playername] tersenyum dengan lebar{/cps}"
 
-    "{cps=40}Player merasa bahwa kunjungan kampus ini benar-benar tidak terduga{/cps}"
+    "{cps=40}[playername] merasa bahwa kunjungan kampus ini benar-benar tidak terduga{/cps}"
 
-    "{cps=40}dan semakin membuat Player yakin tentang masa depannya di Telkom University{/cps}"
+    "{cps=40}dan semakin membuat [playernam] yakin tentang masa depannya di Telkom University{/cps}"
